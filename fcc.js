@@ -73,6 +73,12 @@ var convert = document.getElementById("btn");
 var result = document.getElementById("result");
 
 convert.addEventListener('click', function(num){convertToRoman(num)});
+numb.addEventListener('change', function(num){convertToRoman(num)});
 
-
+var para = document.querySelector('.left');
+   function timeIn(){
+    var period = new Date().toLocaleTimeString();
+    para.innerHTML = '<h1>' + period + '</h1>';
+   };
+   setInterval(timeIn, 1000);
 // ------------------------------------------------------------------------------
