@@ -39,8 +39,8 @@
 // ------------------------------------------------------------------------------
 
 
-function convertToRoman(num) {
 var numb = document.getElementById("number");
+function convertToRoman(num) {
 num = numb.value;
 console.log(num);
 
@@ -81,4 +81,6 @@ var para = document.querySelector('.left');
     para.innerHTML = '<h1>' + period + '</h1>';
    };
    setInterval(timeIn, 1000);
+
+
 // ------------------------------------------------------------------------------
