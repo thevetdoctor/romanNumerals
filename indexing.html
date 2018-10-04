@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Roman Numeral Converter</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style>
+		body {
+			background-color: #223;
+			font-size: 18px;
+/* 			color: white; */
+		}
+		.row {
+			 text-align: center;
+			 width: 100%;
+		}
+
+		.col-xs-6 {
+			 text-align: center;
+			 border: solid 3px #234;
+			 border-radius: 25px;
+			 margin: auto 15%;
+			 width: 70%;
+		}
+
+		input {
+/* 			 width: 100%; */
+			 margin: 10px;
+			 border-radius: 10px;
+		}
+
+		.footer {
+			position: absolute;
+			bottom: 10px;
+		        right: 10px;
+			color: white;
+			font-size: 14px;
+		}
+		
+		.left {
+			position: absolute;
+			bottom: 20px;
+			right: 10px;
+			color: white;
+		}
+		#result {
+			color: white;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-6 text-center text-primary">
+			<p><h3>Convert to Roman Numerals </p></h3><hr>
+			<p><span><input id="number" type="text" name="number" class="btn-default" placeholder="Enter your number..." required>
+			<button id="btn" class="btn btn-success" ><b>Convert</b></button></span></p></h3>
+			<p id="result"></p>
+			</div>
+		</div>
+		<div class="left"></div>
+		<div class="footer">Designed by Obafemi @thevetdoctor</div>
+	</div>
+<script type="text/javascript" src="fcc.js"></script>
+</body>
+</html>
